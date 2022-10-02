@@ -523,7 +523,7 @@ body.offcanvas {
    @media screen and (max-width: 767.98px) {
     .education-item {
       display: flex;
-      max-width: 410px;
+      max-width: 400px;
       justify-content: space-between;
       flex: 0 0 100%;
       flex-wrap: wrap;
@@ -580,16 +580,17 @@ body.offcanvas {
     }
   
     img {
-      max-height: 55px;
+      max-height: 50px;
       width: auto;
       border-style: none;
     }
 
     .education-imgs-wrapper img{
-      max-height: 45px;
+      max-height: 40px;
       margin:10px 0;
     }
   }
+ 
 
 .about-img {
   width: 100%;
