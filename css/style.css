@@ -5,12 +5,6 @@
   font-weight: normal;
   font-style: normal; }
 
-/* =======================================================
-*
-* 	Template Style 
-*	Edit this section
-*
-* ======================================================= */
 
 
 
@@ -489,7 +483,8 @@ body.offcanvas {
 
   .education-year {
     line-height:180px;
-    width: 150px;
+    width: 160px;
+    
   }
 
   .school {
@@ -520,74 +515,75 @@ body.offcanvas {
     border-style: none;
   }
 
-   @media screen and (max-width: 767.98px) {
+  @media screen and (max-width: 767.98px) {
     .education-item {
       display: flex;
-      max-width: 400px;
-      justify-content: space-between;
-      flex: 0 0 100%;
-      flex-wrap: wrap;
-      height: 180px;
-      align-items: center;
-    
+      flex-direction: column;
+      height:300px;
+      
     }  
-  
-    .education-content {
-      font-size: 14px;
-      margin-top:-22px;
-      padding: 12px 0;
-      height: 100%;
-      width: 180px;
+
+    .education-year {
+      font-size: 18px;
+      width: 300px;
+      text-align: center;
+      margin-bottom: 0;
+      height: 20px;
+      line-height:20px;
       
     }
 
     .education-content-rikkyo {
-      font-size: 14px;
-      margin-top:-22px;
-      padding: 35px 0;
-      height: 100%;
-      width: 180px;
+      font-size: 16px;
+      text-align: center;
+      font-size: 16px;
+      height:50px;
+      width: 400px;
+    }
+
+    .education-image-wrapper {
+      height: 160px;
+      width: 300px;
+      margin-top: -115px;
+      text-align: center;
+      align-items: center;
       
     }
   
-    .education-year {
-      font-size: 14px;
-      line-height:180px;
-      width: 140px;
-      
+    .education-content {
+      font-size: 16px;
+      text-align: center;
+      margin-top:-22px;
+      padding: 12px 0;
+      height:50px;
+      width: 400px;
     }
+   
   
     .school {
-      font-size: 14px;
-      margin-top:30px;
-      padding-bottom: 10px;
+      font-weight: bold;
+      margin-top: -90px;
+      font-size: 20px;
+      margin-bottom:-10px;
     }  
   
-    .education-image-wrapper {
-      margin-top:-22px;
-      line-height:180px;
-      height: 100%;
-      width: 80px;
+    .education-imgs-wrapper {
+      display: flex;
+      justify-content: space-between;
+      margin-top: -115px;
+      width: 300px;
       text-align: center;
     }
   
-    .education-imgs-wrapper {
-      display: block;
-      justify-content: space-between;
-      margin-top:-22px;
-      width: 80px;
-      text-align: center;
-    }
   
     img {
-      max-height: 50px;
+      max-height: 130px;
       width: auto;
       border-style: none;
     }
 
     .education-imgs-wrapper img{
-      max-height: 40px;
-      margin:10px 0;
+      max-height: 100px;
     }
   }
  
