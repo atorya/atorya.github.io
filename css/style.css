@@ -520,7 +520,6 @@ body.offcanvas {
       display: flex;
       flex-direction: column;
       height:300px;
-      
     }  
 
     .education-year {
@@ -538,12 +537,12 @@ body.offcanvas {
       text-align: center;
       font-size: 16px;
       height:50px;
-      width: 400px;
+      width: 350px;
     }
 
     .education-image-wrapper {
       height: 160px;
-      width: 300px;
+      width: 350px;
       margin-top: -115px;
       text-align: center;
       align-items: center;
@@ -556,7 +555,7 @@ body.offcanvas {
       margin-top:-22px;
       padding: 12px 0;
       height:50px;
-      width: 400px;
+      width: 350px;
     }
    
   
